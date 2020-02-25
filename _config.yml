@@ -3,7 +3,7 @@ title: CSS Advanced
 email: Niki70_96@abv.bg
 description: Hi, there
 destination: docs
-baseurl: ""
+baseurl: "/css-advanced"
 url: ""
 twitter_username: nikinikolov
 github_username: nikinikolov
@@ -12,14 +12,12 @@ github_username: nikinikolov
 plugins:
   - jekyll-feed
 
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
